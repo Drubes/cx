@@ -1,0 +1,4 @@
+#!/usr/bin/python
+import sys
+import os
+os.system ("hexdump -C "+' '.join(sys.argv[1:])+"|hexcolors|less -R")
